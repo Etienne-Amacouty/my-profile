@@ -1,0 +1,93 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: Courier;
+}
+
+h1 {
+	font-family: Helvetica ;
+	color:purple;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+h2, h3, h4, h5 {
+	font-family: roboto condensed;
+	color: #e3e73e;
+	letter-spacing: 15px;
+}
+
+p {
+	color: rgb(230, 230, 230);
+	font-family: oxanium;
+}
+.text-red {
+	color: #e5e79d;
+	font-family: Righteous;
+	font-weight: bold;
+	font-size:35px;
+}
+
+div {
+	background:#3f2a41;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+	text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 600px;
+	font-size:16px;
+	font-family: Roboto, sans serif;
+}
+a:hover {
+	color:black;
+}
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-purple {
+	background-color: #594257;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+}
+
+.btn-darkmagenta {
+	background-color:purple;
+	color:white;
+	padding:15px 20px;
+	border-radius: 4px;
+}
+
+.btn-darkmagenta:hover {
+	background-color:black;
+	color:white;
+}
+
+.list-inline li {
+	display: inline;
+	padding:50px;	
+}
